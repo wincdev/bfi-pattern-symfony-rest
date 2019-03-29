@@ -1,4 +1,4 @@
-# BfiDemoSymfonyRest
+# Bfi Pattern Symfony Rest
 
 [Symfony][1] is a **PHP framework** for web applications and a set of reusable
 **PHP components**. Symfony is used by thousands of web applications (including
