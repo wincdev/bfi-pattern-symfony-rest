@@ -14,6 +14,6 @@ class ResponseListener extends \Symfony\Component\HttpKernel\EventListener\Respo
     public function onKernelResponse(FilterResponseEvent $event)
     {
         parent::onKernelResponse($event);
-        $event->getResponse()->headers->add(["Access-Control-Allow-Origin" => "*"]);
+        $event->getResponse()->headers->add(["Access-Control-Allow-Origin" => "*","Access-Control-Allow-Methods"=> "OPTIONS, TRACE, GET, HEAD, POST, PUT, DELETE"]);
     }
 }
